@@ -1,0 +1,313 @@
+@charset "utf-8";@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+:root{
+	
+	
+--color-principal: #ff9d00;
+
+--color-boton-hover: #f75160;
+
+--color-rojizo: #aa0717;
+
+--color-negro: #000;
+
+--color-general: #999999;
+	
+--color-blanco: #fff;
+	
+--color-azul-oscuro: #007bff;
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	
+}
+
+.header-area.sticky{
+	background-color: var(--color-principal)!important;
+	}
+
+.navbar-light {
+	
+	background-color:transparent!important;
+	font-size:20px;	
+}
+
+
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+.header-area.sticky .navbar-light .navbar-nav .nav-link{
+	color: #3F1414;
+	
+	
+}
+
+.header-area.sticky .navbar-light .navbar-nav .nav-link:hover{
+	color: var(--color-blanco);
+}
+.header-area.sticky .navbar-light .navbar-nav .active .nav-link{
+	color: var(--color-azul-oscuro);
+	
+}
+.header-area.sticky .navbar-light .navbar-brand {
+	color: #FFFFFF;
+	
+}
+
+.header-area.sticky .navbar-light .navbar-nav .active .nav-link{
+	color: var(--color-azul-oscuro);
+}
+
+
+.header-area.sticky .navbar-light .navbar-nav .nav-link{
+	color: var(--color-negro);
+}
+.header-area.sticky .navbar-light .navbar-nav .active .nav-link{
+	color: var(--color-rojizo);
+}
+.header-area.sticky .navbar-light .navbar-brand {
+	color: var(--color-negro);
+}
+
+
+	
+#hero{
+	
+	background-image: url("../img/visu-stade-1-1200x667.jpg");
+	background-position:center;
+	background-size: auto;
+	padding-bottom: -20%;
+		
+}
+	
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: var(--color-negro);
+}
+
+
+
+#hero h1 {
+	
+	text-align: center;
+	font-family: 'Cambria', sans-serif;
+	color: var(--color-blanco);
+	margin: auto;
+	padding-top: 70%;
+	font-weight: bolder;
+	font-size: 90px;
+	
+}
+
+	
+#hero img{
+	
+	margin-top: 50%;
+	
+}
+
+#hero p {
+	
+	text-align: center;
+	font-family: 'Cambria', sans-serif;
+	color: var(--color-blanco);
+	margin: auto;
+	
+
+	
+}
+
+.titre-nice-un{
+	
+	margin-top: 3%;
+}
+
+
+#home-continue{
+	
+	background-color: #faf9ff;
+	overflow: hidden;
+}
+
+.info-icono{
+	
+	padding: 25% 5%;
+	transition: all 0.3s ease;
+	
+}
+
+#home-continue .info-contenido{
+	
+	overflow: hidden;
+
+}
+
+#home-continue img{
+	
+	margin-right: 10px;
+	
+}
+
+.info-icono:hover{
+	
+	box-shadow: 0 0 30px 0 #eee;
+	transform: translateY(-10px);
+	transition: all 0.3s ease;
+}
+
+#features{
+	
+	background-color: var(--color-gris);
+	text-align: center;
+}
+
+#features .titulos{
+	
+	margin-bottom: 2%;
+}
+
+.feature i{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border-radius: 100%;
+	border: 1px solid var(--color-principal);
+	display: block;
+	margin: auto;
+	font-size: 50px;
+	color:  var(--color azul);
+	margin-bottom: 3%;
+		
+}
+
+.feature h3{
+	
+	font-size: 20px;
+	margin-bottom: 3%;
+	
+}
+
+.feature:hover{
+	
+	background-color: var(--color-principal);
+	border-radius: 10px;
+	color: #FFFFFF;
+}
+
+.feature{
+	
+	padding: 50px;
+	transition: all 0.2 ease-in;
+	
+}
+
+.feature:hover h3, 
+.feature:hover i{
+	
+	color: #FFFFFF;
+	transition: all 0.2 ease-in;
+}
+
+.feature:hover{
+	
+	box-shadow: 0px 0px 2px 0px #333;
+	
+	
+}
+
+#nice .tab-content{
+	
+	padding: 40px 0;
+}
+
+#nice .nav-tabs a{
+	
+
+	color:#000;
+	font-size: 20px;
+	border: 0;
+	border-radius: 0;
+	padding: 10px 40px;
+}
+
+#nice .nav-tabs a.active{
+	
+	background-color: var(--color-principal);
+	color: #fff;
+	
+	
+	
+}
+
+
+#nice .nav-tabs{
+	box-shadow: 0px 0px 10px 0px #ddd;
+	background-color: #fff;
+	
+	
+}
+
+footer{
+	
+	text-align: center;
+	background: var(--color-rojizo);
+	margin-top: 5%;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+
+
+
+footer i{
+	
+	width: 40px;
+	margin-top:105%;
+	margin-bottom: 5%;
+	color: var(--color-principal);
+	font-size: 30px	
+}
+
+footer i:hover{
+	
+	color: var(--color-blanco);
+	
+	}
+
+.right{
+	
+	color: var(--color-principal);
+	padding-top: 3%;
+}
+
+.footer_bandera{
+	
+	width: 50px;
+    height: 30px;
+	margin-left: 350%;
+	margin-top: 50%;
+	
+	
+}
+
+.footer_eb{
+	
+	margin-top: 10%;
+	
+}
+
+.footer_cr{
+	
+	margin-top: 10%;
+	color: var(--color-principal);
+}
+
